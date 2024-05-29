@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    text-align: center;
+    margin: 10px;
+}
+
+#menu-bar {
+    /* text-align: center; */
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu-bar li{
+    padding: 15px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#container {
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
